@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ITC Precourse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="page-wrapper">
+            <nav class>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <h1>Contact</h1>
+    <div class="wrapper">
+        <section class="contact-info">
+            <form method="POST" id="contact-form">
+                <label for="first-name"></label><input type="text" id="first" name="first" placeholder="FIRST NAME" required>
+                <label for="last-name"></label><input type="text" id="last" name="last" placeholder="LAST NAME">
+                <label for="email"></label><input type="email" id="email" name="email" placeholder="YOUR EMAIL" required>
+                <label for="comments"></label><textarea id="comments" name="comments" placeholder="ENTER YOUR COMMENTS HERE" required></textarea>
+                <p class="parform">Which of the following activities do you enjoy the most?</p><br><br>
+                <label class="radio"><input type="radio" name="activities" value="reading" required> Cuddling up with a great book</label>
+                <label class="radio"><input type="radio" name="activities" value="running"> Going for a run along the beach</label>
+                <label class="radio"><input type="radio" name="activities" value="cooking"> Experimenting with new recipes</label>
+                <label class="radio"><input type="radio" name="activities" value="watching-tv"> Watching a series on Netflix</label>
+                <button type="submit" id="submit">SUBMIT</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div><p class="end"></p></div>
+    </footer>
+    <script src="https://unpkg.com/popmotion@8.5.0/dist/popmotion.global.min.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="portfoliocontact.js"></script>
+</body>
+</html>
